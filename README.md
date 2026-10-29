@@ -28,7 +28,7 @@ An interactive mystery investigation app. Write a scenario, receive a generated 
    cp server/.env.example server/.env
    ```
 
-   Set `MONGODB_URI`, `GEMINI_API_KEY`, and `GEMINI_MODEL` in `server/.env`. The Gemini key is server-only. The example uses `gemini-2.5-flash`; choose a model enabled for your Google account if needed.
+   Set `MONGODB_URI`, `GEMINI_API_KEY`, and `GEMINI_MODEL` in `server/.env`. The Gemini key is server-only. The example uses `gemini-3.5-flash`; choose a model enabled for your Google account if needed.
 
 3. Configure the client (the default works for local development):
 
