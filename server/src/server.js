@@ -8,7 +8,7 @@ try {
 
   console.log('MongoDB connected successfully!');
 
-  app.listen(env.port, () => {
+  app.listen(env.port, '0.0.0.0', () => {
     console.log(
       `AI Mystery Room API listening on port ${env.port}`
     );

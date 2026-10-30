@@ -979,7 +979,7 @@ Do not hardcode a model name throughout the application.
 
 Example:
 
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.8-flash
 
 The actual model must be selected based on the current API capabilities and availability.
 
@@ -2190,7 +2190,7 @@ NODE_ENV=development
 PORT=5000
 MONGODB_URI=mongodb://127.0.0.1:27017/ai_mystery_room
 GEMINI_API_KEY=replace_with_your_gemini_api_key
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.8-flash
 CLIENT_ORIGIN=http://localhost:5173
 MAX_SCENARIO_LENGTH=3000
 MIN_SCENARIO_LENGTH=30

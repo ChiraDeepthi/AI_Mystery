@@ -12,7 +12,7 @@ An interactive mystery investigation app. Write a scenario, receive a generated 
 
 - Node.js 20 or later and npm
 - MongoDB running locally or a MongoDB connection string
-- An Google API key and a model available to that key
+- A Google API key and a model available to that key
 
 ## Run locally
 
@@ -55,6 +55,10 @@ The server exits with a clear configuration error if required environment variab
 ## API
 
 The versioned API is rooted at `/api/v1`. See [docs/API.md](docs/API.md). The health endpoint is `/api/v1/health`.
+
+## Deployment
+
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for a step-by-step Render and MongoDB Atlas deployment guide.
 
 ## Media
 

@@ -11,7 +11,7 @@ export const env = {
   mongoUri: process.env.MONGODB_URI,
   geminiApiKey: process.env.GEMINI_API_KEY,
   geminiModel: process.env.GEMINI_MODEL,
-  clientOrigin: process.env.CLIENT_ORIGIN || 'http://localhost:5173',
+  clientOrigin: process.env.CLIENT_ORIGIN || 'http://localhost:5173,http://localhost:5174',
   minScenario: Number(process.env.MIN_SCENARIO_LENGTH || 30),
   maxScenario: Number(process.env.MAX_SCENARIO_LENGTH || 3000),
   generationLimit: Number(process.env.GENERATION_RATE_LIMIT || 5),
